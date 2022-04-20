@@ -1,0 +1,30 @@
+header {
+	background: var(--clr-black);
+	color: var(--clr-white);
+}
+
+.dark-bg {
+	background: var(--clr-black);
+	color: var(--clr-white);
+}
+
+.light-bg {
+	background: var(--clr-white);
+	color: var(--clr-black);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	gap: 2rem;
+	padding: 3rem 0;
+}
+
+.shop-name {
+	cursor: pointer;
+}

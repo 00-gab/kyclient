@@ -1,0 +1,52 @@
+.account-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.account-heading h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.account-form {
+	display: flex;
+	flex-direction: column;
+	color: var(--clr-black);
+	gap: 1rem;
+	/* outline: 1px solid red; */
+}
+
+.form-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-group > div {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 0.4rem;
+	margin-right: 1rem;
+}
+
+.form-group input {
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: 1px solid var(--clr-gray);
+	border-radius: 3px;
+	outline: none;
+	max-width: 500px;
+}
+
+.save-btn {
+	display: block;
+	margin: 2rem 0;
+	background: #664B3C;
+	color: var(--clr-white);
+	padding: 0.8rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	font-weight: 700;
+}
